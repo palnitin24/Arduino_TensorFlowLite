@@ -24,7 +24,7 @@ Modified by Nitin Pal. [Source for modification](https://github.com/tensorflow/t
 
 The officially supported TensorFlow Lite Micro library for Arduino resides
 in the [tflite-micro-arduino-examples](https://github.com/tensorflow/tflite-micro-arduino-examples)
-GitHub repository.
+GitHub repository and odified one is [Here](https://github.com/palnitin24/Arduino_TensorFlowLite).
 To install the in-development version of this library, you can use the
 latest version directly from the GitHub repository. This requires you clone the
 repo into the folder that holds libraries for the Arduino IDE. The location for
@@ -36,7 +36,7 @@ Once you're in that folder in the terminal, you can then grab the code using the
 git command line tool:
 
 ```
-git clone https://github.com/tensorflow/tflite-micro-arduino-examples Arduino_TensorFlowLite
+git clone https://github.com/palnitin24/Arduino_TensorFlowLite Arduino_TensorFlowLite
 ```
 
 To update your clone of the repository to the latest code, use the following terminal commands:

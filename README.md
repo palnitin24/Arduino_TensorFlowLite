@@ -2,10 +2,13 @@
 
 This repository has the code (including examples) needed to use Tensorflow Lite Micro on an Arduino.
 
+Credit: [Official source repository](https://github.com/tensorflow/tflite-micro-arduino-examples)
+
+Modified by Nitin Pal. [Source for modification](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow)
+
 ## Table of contents
 <!--ts-->
 * [Table of contents](#table-of-contents)
-* [Build Status](#build-status)
 * [How to Install](#how-to-install)
   * [GitHub](#github)
   * [Checking your Installation](#checking-your-installation)
@@ -14,12 +17,6 @@ This repository has the code (including examples) needed to use Tensorflow Lite 
 * [Contributing](#contributing)
 <!--te-->
 
-## Build Status
-
-Build Type          |     Status    |
----------------     | ------------- |
-Arduino CLI on Linux  | [![Arduino](https://github.com/tensorflow/tflite-micro-arduino-examples/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/tensorflow/tflite-micro-arduino-examples/actions/workflows/ci.yml)
-Sync from tflite-micro  | [![Sync from tflite-micro](https://github.com/tensorflow/tflite-micro-arduino-examples/actions/workflows/sync.yml/badge.svg)](https://github.com/tensorflow/tflite-micro-arduino-examples/actions/workflows/sync.yml)
 
 ## How to Install
 
@@ -70,11 +67,10 @@ This code is made available under the Apache 2 license.
 
 ## Contributing
 
-Forks of this library are welcome and encouraged. If you have bug reports or
+Forks of this library are welcome and encouraged. This is not the official repository for this library so if you have bug reports or
 fixes to contribute, the source of this code is at [https://github.com/tensorflow/tflite-micro](http://github.com/tensorflow/tflite-micro)
 and all issues and pull requests should be directed there.
 
-The code here is created through an automatic project generation process
-and may differ from
-that source of truth, since it's cross-platform and needs to be modified to
+The modification in the files are done by myself and may differ 
+from that source of truth. It's a modified file to be able to
 work within the Arduino IDE.

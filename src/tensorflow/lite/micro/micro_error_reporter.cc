@@ -36,7 +36,7 @@ ErrorReporter* GetMicroErrorReporter() {
 }
 
 int MicroErrorReporter::Report(const char* format, va_list args) {
-  VMicroPrintf(format, args);
+  MicroPrintf(format, args);
   return 0;
 }
 

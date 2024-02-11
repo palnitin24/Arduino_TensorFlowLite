@@ -4,7 +4,7 @@ This repository has the code (including examples) needed to use Tensorflow Lite 
 
 Credit: [Official source repository](https://github.com/tensorflow/tflite-micro-arduino-examples)
 
-Modified by Nitin Pal. [Source for modification](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow)
+Modified by Nitin Pal. [Source for modification](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow) (added version.h)
 
 ## Table of contents
 <!--ts-->
